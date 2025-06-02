@@ -1,0 +1,24 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "LLM NPC",
+  "Description": "Plugin for Creating NPC that actively speaks with the user using LLM",
+  "Category": "AI",
+  "CreatedBy": "Your Name",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "LlmNpc",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

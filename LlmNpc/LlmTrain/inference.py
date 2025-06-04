@@ -27,8 +27,6 @@ original_model = AutoModelForCausalLM.from_pretrained(
 
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-print('@@@@@')
-print(tokenizer.eos_token_id)
 
 prompt = f"### 명령어: {get_instruction_prompt()}\n\n###맥락: 뒤로 빼야 돼\n\n### 답변: "  
 

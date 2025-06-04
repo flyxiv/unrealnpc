@@ -20,11 +20,7 @@ def get_instruction_prompt():
 리더의 아래 오더를 보고 지금 취해야 하는 행동이 무엇인지 알려주세요.
 """
 
-
 if __name__ == "__main__":
-    data_dir = './lithy_dataset/raw_text'
-    label_dir = "./lithy_dataset/character_settings"
-
     local_rank = int(os.environ.get("LOCAL_RANK", 0))
 
     bnb_config = BitsAndBytesConfig(

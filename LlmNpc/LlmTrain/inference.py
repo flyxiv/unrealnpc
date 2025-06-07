@@ -25,7 +25,6 @@ original_model = AutoModelForCausalLM.from_pretrained(
     device_map={'': f'cuda:{0}'}
 )
 
-
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 prompt = f"### 명령어: {get_instruction_prompt()}\n\n###맥락: 뒤로 빼야 돼\n\n### 답변: "  
